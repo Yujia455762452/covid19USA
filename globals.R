@@ -1,3 +1,5 @@
+library(plyr)
+library(dplyr)
 # COVID DATA
 df <- read.csv("https://raw.githubusercontent.com/Yujia455762452/covid19USA/master/national-history.csv",header = TRUE,sep = ",",quote = '"') 
 data <- df
